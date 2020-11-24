@@ -83,6 +83,9 @@
     "sinon-chai": "^2.8.0",
     "snazzy": "^4.0.0",
     "superagent": "^3.8.2",
+    "webpack": "^4.44.2",
+    "webpack-cli": "^4.2.0",
+    "webpack-dev-server": "^3.11.0",
     "webpack-sources": "1.0.1"
   },
   "semistandard": {
@@ -94,10 +97,5 @@
       "examples/build.js",
       "dist/**"
     ]
-  },
-  "devDependencies": {
-    "webpack": "^4.44.2",
-    "webpack-cli": "^4.2.0",
-    "webpack-dev-server": "^3.11.0"
   }
 }

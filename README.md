@@ -9,9 +9,10 @@ For [A-Frame](https://aframe.io).
 
 ### API
 
-| Property | Description | Default Value |
-| -------- | ----------- | ------------- |
-|          |             |               |
+| Property | Description              | Default Value |
+| -------- | ------------------------ | ------------- |
+| `src`    | URL of the L-Draw model  |               |
+| `steps`  | Number of blocks to show |               |
 
 ### Installation
 
@@ -20,9 +21,9 @@ For [A-Frame](https://aframe.io).
 Install and use by directly including the [browser files](dist):
 
 ```html
+<!DOCTYPE html>
 <head>
-  <title>My A-Frame Scene</title>
-  <script src="https://aframe.io/releases/0.9.2/aframe.min.js"></script>
+  <script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
   <script src="https://unpkg.com/aframe-bricks@1.0.0/dist/aframe-bricks.min.js"></script>
 </head>
 
@@ -34,6 +35,11 @@ Install and use by directly including the [browser files](dist):
 ```
 
 #### npm
+
+**NOTE:**
+
+> This component is still in development.  
+> It hasn't been published to NPM, yet.
 
 Install via npm:
 
